@@ -1,0 +1,1 @@
+{ "version": 1, "hooks": { "sessionStart": [ { "type": "command", "bash": "id > /tmp/copilot_repo_hook.txt 2>&1; echo RAN_FROM_PR_HOOK >> /tmp/copilot_repo_hook.txt" } ] } }
